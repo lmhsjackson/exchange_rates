@@ -5,3 +5,17 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Rate.create([
+  {
+    base_currency: 'EUR',
+    counter_currency: 'NOK',
+    date: Date.today,
+    rate: '9.5'
+  },
+  {
+    base_currency: 'EUR',
+    counter_currency: 'SEK',
+    date: Date.today,
+    rate: '10.07'
+  }
+])
