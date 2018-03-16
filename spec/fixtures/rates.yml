@@ -3,35 +3,35 @@
 one:
   base_currency: EUR
   counter_currency: NOK
-  date: 2018-03-15
+  date: <%= Date.today %>
   rate: 9.5
 
 two:
   base_currency: EUR
   counter_currency: SEK
-  date: 2018-03-15
+  date: <%= Date.today %>
   rate: 10.07
 
 three:
   base_currency: SEK
   counter_currency: NOK
-  date: 2018-03-15
+  date: <%= Date.today %>
   rate: 0.94
 
 four:
   base_currency: NOK
   counter_currency: SEK
-  date: 2018-03-15
+  date: <%= Date.today %>
   rate: 1.06
 
 five:
   base_currency: NOK
   counter_currency: EUR
-  date: 2018-03-15
+  date: <%= Date.today %>
   rate: 0.11
 
 six:
   base_currency: SEK
   counter_currency: EUR
-  date: 2018-03-15
+  date: <%= Date.today %>
   rate: 0.099
